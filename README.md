@@ -1,5 +1,28 @@
-# Toy Problem Setup Template
+# Linked List Intersection
 
-This repo includes the initial setup for your toy problems. [`Use this template`](https://github.com/setezazian/toyproblem-setup/generate) and have fun!
+Write a function linkedListIntersection that returns the node 
+at which the intersection of two linked lists begins, 
+or null if there is no such intersection.
 
-[More info on how to use a template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+Example:
+
+Given the following two linked lists `list1` and `list2`, 
+`linkedListIntersection(list1,list2)` should return `D` 
+as the node of intersection.
+
+```
+   A → B → C
+            ↘
+              D → E → F
+            ↗
+       X → Y
+```
+
+Given the following two linked lists `list1` and `list2`, 
+`linkedListIntersection(list1,list2)` should return `NULL` 
+as there is no point of intersection.
+
+```
+   A → B → C → D
+   X → Y → Z
+```
